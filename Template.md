@@ -64,9 +64,8 @@ devDependencies:
 
 Ensure you have the following installed on your system:
 
-    /program, system etc/
-    /program, system etc/
-    /program, system etc/
+    Node.js v18.00.0
+    npm or yarn
 
 ---
 
