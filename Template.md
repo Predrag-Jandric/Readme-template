@@ -112,23 +112,25 @@ Ensure you have the following installed on your system:
 ## Project Structure 📂
 
     project-name/
-    ├── public/ # Static files
-    ├── src/
-    │ ├── components/ # Reusable components
-    │ ├── pages/ # Page components
-    │ ├── assets/ # Images, fonts, etc.
-    │ ├── styles/ # Global and component-specific styles
-    │ ├── utils/ # Utility functions
-    │ └── App.js # Main application component
-    ├── .env # Environment variables
-    ├── package.json # Project dependencies and scripts
-    └── README.md # Project documentation
+    ├── public
+    ├── src
+    │ ├── components
+    │ ├── pages
+    │ │ ├── file
+    │ │ │ ├── file
+    │ ├── assets
+    │ ├── styles
+    │ ├── utils
+    │ └── App.js 
+    ├── .env 
+    ├── package.json 
+    └── README.md 
 
 ---
 
 ## Contributing 💻
 
-Contributions are /welcome! **OR** not welcome!/
+Contributions are /welcome! **OR** closed at the moment!/
 
 **_/ if (welcome === true) return /_**
 
