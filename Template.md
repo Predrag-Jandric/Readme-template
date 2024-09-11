@@ -105,7 +105,9 @@ Ensure you have the following installed on your system:
 
 7. **Start the Project:**
 
-   - Run the command: `npm start` or `yarn start` to start the project. It will open in your default browser at [localhost:3000/](http://localhost:3000/)
+   -  Run the command: `npm start` or `yarn start` to start the project, if the project is created using create-react-app. It will open in your default browser at [localhost:3000/](http://localhost:3000/)
+     **OR**
+   - Run the command: `npm run dev` or `yarn dev` to start the project, if the project is created using Vite. You will need to manually open the browser address at [localhost:5173/](http://localhost:5173/)
 
 ---
 
