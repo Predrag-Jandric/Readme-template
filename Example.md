@@ -1,66 +1,130 @@
-# React - Currency converter
+# Split Smart
 
-# 🔗 [Live Preview]()
+# 🔗 [Live preview]()
 
-![Design preview](./example-preview.gif)
+# ▶️ [Video walkthrough by dev]()
 
----
-
-## About Project 👋
-
-This is a simple currency converter app built using React. The app allows users to convert a specified amount from one currency to another using the latest exchange rates from the Frankfurter API. This was a practice for fetching data with `useEffect`.
+![Design preview](./prev1.png)
+![Design preview](./gifprev.gif)
 
 ---
 
-## Features 👨‍💻
+## Table of Contents
 
-- **Convert Currency:** Users can input an amount and select the currencies they want to convert from and to.
-
-- **Real-Time Exchange Rates:** The app fetches the latest exchange rates using the Frankfurter API.
-
-- **Reset Functionality:** Users can reset the input amount and the conversion result to zero.
-
----
-
-## How it works ⚙️
-
-1. `App.jsx` Component
-
-- Structural component which also acts as a container and gathers all the other smaller components ...
-
-2. `Btn.jsx` Component
-
-- Used as a reset button and and a currency setter button which ...
-
-3. `Input.jsx` Component
-
-- When the user enters a valid amount and selects different currencies, the app automatically fetches the latest exchange rate from the Frankfurter API ...
+- [About Project](#about-project)
+- [Features](#features)
+- [How it works](#how-it-works)
+- [Technologies & Dependencies used](#technologies--dependencies-used)
+- [Prerequisites](#prerequisites)
+- [Clone & Run locally](#clone--run-locally)
+- [Team](#team)
+- [Special Thanks](#special-thanks)
+- [Contributing](#contributing)
 
 ---
 
-## Technologies & Dependencies used 📦
+## About Project
 
-- **React:** useState, useEffect, components, functions, conditionals ...
+Split Smart is an application designed to simplify splitting expenses among friends, family, or colleagues. Whether you're planning a trip, organizing a group dinner, or managing shared expenses, Split Smart helps you keep track of who owes what and ensures that everyone pays their fair share.
 
-- **CSS:** classes, ids ...
+Split Smart was built using React + Vite. It is only a front-end app, so it doesn't have a database or a backend. For more technical details for developers, see section _Technologies & Dependencies used_. The app was built by a team of 6, during a 6 week time period, see more in the section _Team_.
 
-dependencies:
+---
 
-- "@testing-library/jest-dom": "^5.17.0",
-- "@testing-library/react": "^13.4.0",
-- "@testing-library/user-event": "^13.5.0",
+## Features
+
+- **Create and Manage Groups:** Create groups for different events or activities and manage them from a single dashboard.
+- **Add and Remove Members:** Add members to your groups and remove them if no longer part of a group.
+- **Track Expenses:** Keep track of all expenses within a group.
+- **Equal Contributions:** By default, the app divides expenses equally among all group members.
+- **Custom Contributions:** Adjust contributions so that some members can contribute more or less than others.
+- **Edit Group Details:** Update group names, descriptions, and images to keep everything organized.
+- **Search Functionality:** Quickly find groups using the search bar.
+
+- **Dark Mode:** Toggle between light and dark modes for a comfortable viewing experience.
+- **Responsive Design:** Enjoy a seamless experience on both desktop and mobile devices.
+- **Real-time Updates:** Changes are automatically saved in your browser's local storage.
+- **Notifications:** Receive feedback through notifications for important actions, such as adding or removing members, and updating contributions.
+
+---
+
+## How it works
+
+- Upon entering the app, the user sees a homepage and a sidebar on the left.
+
+- On this homepage, the user can:
+
+  1.  Create a new group.
+  2.  Remove an existing group.
+  3.  Open details of the default group always present.
+  4.  Search groups, if there are any groups.
+
+- Then the user can open group details by clicking "Details" button on Homepage, to see that specific group's details.
+
+- The user is now on a dedicated group page with all the details for that group.
+
+- From there, the user can do many things, such as:
+
+  1.  Edit group's name, description and image.
+  2.  Edit the group's budget and total expense.
+  3.  Add or remove members to the group.
+  4.  Assign different pictures to new members, if no picture is selected, a default picture will be assigned to member.
+  5.  See the contributions of the members to total expense ratio. By default all members contribute equally.
+  6.  Edit contributions so that some members can contribute more and some less.
+
+---
+
+## Technologies & Dependencies used
+
+- **React:** for all the logic, many React features were used: conditionals, components, useState, useEffect, functions...
+
+- **Redux Toolkit:** for global state management.
+
+- **React Icons:** for all the icons in the app.
+
+- **Framer motion:** for animations
+
+- **React Router:** for all routing needs.
+
+- **Tailwind:** for all styling, dark mode, custom classes...
+
+- **Recharts:** for all the charts used in the app.
+
+<br>
+
+**dependencies:**
+
+- "@reduxjs/toolkit": "^2.2.7",
+- "framer-motion": "^12.3.1",
 - "react": "^18.3.1",
 - "react-dom": "^18.3.1",
-- "react-scripts": "5.0.1",
-- "web-vitals": "^2.1.4"
+- "react-icons": "^5.3.0",
+- "react-redux": "^9.1.2",
+- "react-router-dom": "^6.26.2",
+- "react-toastify": "^10.0.5",
+- "recharts": "^2.12.7"
 
-devDependencies:
+**devDependencies:**
 
-- "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+- "@eslint/js": "^9.9.0",
+- "@types/react": "^18.3.3",
+- "@types/react-dom": "^18.3.0",
+- "@vitejs/plugin-react": "^4.3.1",
+- "autoprefixer": "^10.4.20",
+- "eslint": "^9.9.0",
+- "eslint-plugin-react": "^7.35.0",
+- "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+- "eslint-plugin-react-refresh": "^0.4.9",
+- "globals": "^15.9.0",
+- "postcss": "^8.4.45",
+- "prettier": "^3.5.0",
+- "prettier-plugin-tailwindcss": "^0.6.11",
+- "tailwindcss": "^3.4.10",
+- "vite": "^5.4.1"
 
 ---
 
-## Prerequisites 📚
+## Prerequisites
 
 Ensure you have the following installed on your system:
 
@@ -69,7 +133,7 @@ Ensure you have the following installed on your system:
 
 ---
 
-## Clone & Run locally 🏃‍♂️
+## Clone & Run locally
 
 1. **Clone the Repository:**
 
@@ -105,79 +169,36 @@ Ensure you have the following installed on your system:
 
 7. **Start the Project:**
 
-   - Run the command: `npm start` or `yarn start` to start the project. It will open in your default browser at [localhost:3000/](http://localhost:3000/)
+   - Run the command: `npm run dev` or `yarn dev` to start the project. You will need to manually open the browser address at [localhost:5173/](http://localhost:5173/)
 
 ---
 
-## Project Structure 📂
+## Team
 
-    project-name/
-    ├── public/ # Static files
-    ├── src/
-    │ ├── components/ # Reusable components
-    │ ├── pages/ # Page components
-    │ ├── assets/ # Images, fonts, etc.
-    │ ├── styles/ # Global and component-specific styles
-    │ ├── utils/ # Utility functions
-    │ └── App.js # Main application component
-    ├── .env # Environment variables
-    ├── package.json # Project dependencies and scripts
-    └── README.md # Project documentation
+Voyage XX - team XX. {month} {year}. {additional remarks}
+
+- Marcus, Product Owner: [GitHub]() / [LinkedIn]()
+
+- Pete Jones, Developer: [GitHub]() / [LinkedIn]()
+
+- Maria Davidson, Developer: [GitHub]() / [LinkedIn]()
+
+- Mike Designer: [GitHub]() / [LinkedIn]()
 
 ---
-
-## Contributing 💻
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-
-2. Create a new branch:
-
-<br>
-
-    git checkout -b feature-branch
-
-3. Make your changes and commit them:
-
-<br>
-
-    git commit -m 'Add new feature'
-
-4. Push to the branch:
-
-<br>
-
-    git push origin feature-branch
-
----
-
-## Team 🎇
-
-We’re a passionate team of developers who work together to bring this project to life. Meet the team:
-
-### Important role
-
-Emmerich Kit \
-Role: Project manager \
-GitHub or whatever: [link]()
-
-### Contributors
-
-- Reynaud Marie-Noëlle \
-  Role: front end developer \
-  GitHub: [link]()
-
-- Snow Yeong-Cheol \
-  Role: designer and UI/UX \
-  GitHub: [link]()
-
-- Katharine Kira \
-  Role: Back end developer \
-  GitHub: [link]()
 
 ### Special Thanks
 
-A big thank you to everyone who contributed to the project, whether through code, design, or feedback. Your collaboration and dedication made this project possible!
+We as a whole team would like to thank Chingu platform and community for this opportunity to learn, improve and collaborate. Thank you Chingu !
+
+Chingu is a platform that helps developers and other people in tech related roles practice in-demand skills and accelerate their learning through collaboration and project-building.
+
+Learn more about Chingu platform at https://www.chingu.io/
+
+---
+
+## Contributing
+
+Contributions to this project are closed.
 
 ---

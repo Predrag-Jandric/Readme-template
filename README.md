@@ -2,9 +2,9 @@
 
 ---
 
-## About Project 👋
+## About
 
-This repository provides a customizable README.md template to jumpstart your project's documentation, and a customised example. Copy, paste, and tailor it to create a clear and informative overview of your amazing repo!
+This repository provides a customizable README.md template to jumpstart your project's documentation, and a customised example. Copy, paste, and tailor it to create a clear and informative overview of your repo.
 
 ---
 

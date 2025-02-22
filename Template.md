@@ -1,191 +1,89 @@
-# /Language Name (React, Angular etc)/ - /Project Name/
+# *app name*
 
-# 🔗 [Live Preview](/live link of project deployed on Netlify etc/)
+# 🔗 [Live preview](*here put live link of the project deployed on Netlify etc*)
 
-![Design preview](/path to image or gif of the project/)
+# ▶️ [Video walkthrough by dev](*here put the URL of the project*)
 
----
+![Design preview](here put path to image or gif of the project)
 
-## About Project 👋
-
-/This should be a quick run through of why you made this project, it’s key goals, and why it might be helpful to whoever is reading this documentation. Keep it brief, but specific./
+![Design preview](here put path to image or gif of the project)
 
 ---
 
-## Features 👨‍💻
+## Table of Contents
 
-- **/Feature/:** /Explain what the feature does/
-
-- **/Feature/:** /Explain what the feature does/
-
-- **/Feature/:** /Explain what the feature does/
-
----
-
-## How it works ⚙️
-
-#### `/Component name/` Component
-
-- /Explain what this component does and how it works in detail./
-
-#### `/Component name/` Component
-
-- /Explain what this component does and how it works in detail./
-
-#### `/Component name/` Component
-
-- /Explain what this component does and how it works in detail./
+- [About Project](#about-project)
+- [Features](#features)
+- [How it works](#how-it-works)
+- [Technologies & Dependencies used](#technologies--dependencies-used)
+- [Prerequisites](#prerequisites)
+- [Clone & Run locally](#clone--run-locally)
+- [Team](#team)
+- [Special Thanks](#special-thanks)
+- [Contributing & License](#contributing--license)
 
 ---
 
-## Technologies & Dependencies used 📦
+## About Project
 
-- **/Technology name/:** /Technology features used./
-
-- **/Technology name/:** /Technology features used./
-
-- **/Technology name/:** /Technology features used./
-
-dependencies:
-
-- /dependence:/ /version number/
-- /dependence:/ /version number/
-- /dependence:/ /version number/
-
-devDependencies:
-
-- /dependence:/ /version number/
-- /dependence:/ /version number/
-- /dependence:/ /version number/
+*description of the application, what it does, why was it created, what problem does it solve, who is it for, and any other relevant information.*
 
 ---
 
-## Prerequisites 📚
+## Features
 
-Ensure you have the following installed on your system:
-
-    Node.js v18.00.0
-    npm or yarn
+*brief and simple non-technical explanation of all the features the app has*
 
 ---
 
-## Clone & Run locally 🏃‍♂️
+## How it works
 
-1. **Clone the Repository:**
-
-   - On the GitHub repo page, click the green "Code" button.
-
-   - Copy the HTTPS URL.
-
-2. **Open the Terminal:**
-
-   - Open the terminal by typing "cmd" in your desktop's start menu, **OR**
-
-   - Right-click on the desktop and select "Git Bash Here" (if you have Git Bash installed), **OR**
-
-   - Open Visual Studio Code's terminal by clicking "Terminal" -> "New Terminal" inside the editor.
-
-3. **Navigate to Your Project Location:**
-
-   - In the terminal, navigate to your desired location (e.g., desktop) using the command: `cd desktop`. Adjust the path if your project is located elsewhere.
-
-   - Ensure that your terminal's address is inside the project folder.
-
-4. **Clone the Repository:**
-
-   - Run the command: `git clone /link/`. Replace `/link/` with the HTTPS URL from step 1.
-
-5. **Enter the Project Directory:**
-
-   - Navigate into the cloned repository by typing: `cd /folder-name/`. Replace `/folder-name/` with the name of the cloned folder.
-
-6. **Install Dependencies:**
-
-   - Run the command: `npm install` to install all the necessary dependencies.
-
-7. **Start the Project:**
-
-   -  Run the command: `npm start` or `yarn start` to start the project, if the project is created using create-react-app. It will open in your default browser at [localhost:3000/](http://localhost:3000/)
-     **OR**
-   - Run the command: `npm run dev` or `yarn dev` to start the project, if the project is created using Vite. You will need to manually open the browser address at [localhost:5173/](http://localhost:5173/)
+*detailed technical explanation of all app's features and logic. this can also be like a flowchart*
 
 ---
 
-## Project Structure 📂
+## Technologies & Dependencies used
 
-    project-name/
-    ├── public
-    ├── src
-    │ ├── components
-    │ ├── pages
-    │ │ ├── file
-    │ │ │ ├── file
-    │ ├── assets
-    │ ├── styles
-    │ ├── utils
-    │ └── App.js 
-    ├── .env 
-    ├── package.json 
-    └── README.md 
-
----
-
-## Contributing 💻
-
-Contributions are /welcome! **OR** closed at the moment!/
-
-**_/ if (welcome === true) return /_**
-
-Please follow these steps:
-
-1. Fork the repository.
-
-2. Create a new branch:
+*dev can make a list of all the most important packages used and briefly explain what each package does*
 
 <br>
 
-    git checkout -b feature-branch
+**dependencies:**
 
-3. Make your changes and commit them:
+*all the normal dependencies, the dev can just copy paste these from package.json*
 
-<br>
+**devDependencies:**
 
-    git commit -m 'Add new feature'
-
-4. Push to the branch:
-
-<br>
-
-    git push origin feature-branch
+*all the developer dependencies*
 
 ---
 
-## Team 🎇
+## Prerequisites
 
-/Summary and description about team/
+*anything that is required for the app to work, even before cloning the repo, such as programs, operating system etc*
 
-### Important role
+---
 
-/Name/ \
-Role: /role name/ \
-GitHub or whatever: [link]()
+## Clone & Run locally
 
-### Contributors
+*detailed steps of what is needed in order for someone to clone the repo and start it locally*
 
-- /Contributor Name/ \
-  Role: /role name/ \
-  GitHub: [link]()
+---
 
-- /Contributor Name/ \
-  Role: /role name/ \
-  GitHub: [link]()
+## Team
 
-- /Contributor Name/ \
-  Role: /role name/ \
-  GitHub: [link]()
+*list the names of team members, and links to their social accounts. If solo dev made the project, then the dev can talk about lessions learned or challenges, and the section can be renamed into "What I learned" or something similar*
+
+---
 
 ### Special Thanks
 
-/Thank you or whatever else message/
+*any remarks and special thanks from the team or solo dev, to anyone who helped or inspired the project*
+
+---
+
+## Contributing & License
+
+*anything regarding contribution rules or licenses*
 
 ---
